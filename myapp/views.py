@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse,Http404,HttpResponseRedirect
-import openai,os
+import os
 from dotenv import load_dotenv
 from django.utils.translation import gettext_lazy as _
 from .forms import *
